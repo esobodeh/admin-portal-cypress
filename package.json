@@ -1,0 +1,14 @@
+{
+  "name": "admin-portal-cypress",
+  "version": "1.0.0",
+  "description": "Clohea Admin Portal Automation with Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel Obodeh",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.7.0"
+  }
+}
