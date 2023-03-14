@@ -1,0 +1,28 @@
+{
+    "Onboarding": 
+    {
+       "rcNumber" :         "register-rcNumberInput",
+       "mcCompanyName" :    "register-centerNameInput",
+       "password" :         "register-passwordInput",
+       "confirmPassword" :  "register-confirmPasswordInput",
+       "email" :            "register-emailInput"
+    },
+    
+    "Login":
+    {
+        "usernameTextfield" : "",
+        "passwordTextfield" : "",
+        "loginButton" : "",
+        "signUpLinkedText" : ""
+    },
+
+    "Forgotpassword":
+    {
+        "forgotPasswordLinkText" : "",
+        "mcEmailTextfield" : "",
+        "resetPassworbButton" : "",
+        "signInLinkedText" : ""
+
+    }
+       
+}
