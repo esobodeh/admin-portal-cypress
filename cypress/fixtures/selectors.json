@@ -1,0 +1,31 @@
+{
+    "Onboarding": 
+    {
+       "rcNumber" :         "register-rcNumberInput",
+       "mcCompanyName" :    "register-centerNameInput",
+       "password" :         "register-passwordInput",
+       "confirmPassword" :  "register-confirmPasswordInput",
+       "email" :            "register-emailInput",
+       "signUpButton" :     "register-btn",
+       "tAndCcheckbox" :    "register-policyCheckbox",
+       "confirmOTPBtn" :    "confirmEmail-btn",
+       "closeModalBtn" :    "close-modal-btn"
+    },
+    
+    "Login":
+    {
+        "emailTextfield" : "login-emailInput",
+        "passwordTextfield" : "login-passwordInput",
+        "loginButton" : "login-btn",
+        "signUpLinkedText" : "go-to- Sign Up-link"
+    },
+
+    "Forgotpassword":
+    {
+        "forgotPasswordLinkText" : "go-to-forgot-password-link",
+        "emailTextfield" : "forgotPassword-emailInput",
+        "resetPassworbButton" : "resetPassword-btn",
+        "signInLinkedText" : "go-to-Sign In-link"
+    }
+       
+}
