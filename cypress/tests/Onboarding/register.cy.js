@@ -40,12 +40,15 @@ context('Onboarding', () => {
       // cy.waitUntil(()=>  cy.getElementByID(this.selector.Onboarding.closeModalBtn).click())
     })
 
+
+
     afterEach(()=>{
       cy.fixture('CloheaDummyData').then(function(data){
         cy.request('DELETE', 'http://rootservice.development.clohea.com/api/rootservice/v1/super-admin/tenant',
         { Email : data.Onboarding.email }).then(
         (response) => {
           expect(response.body).to.have.property('message', 'Tenant account deleted successfully') // true
+          expect(response.status).to.eq(200)
       })
   }
 )
