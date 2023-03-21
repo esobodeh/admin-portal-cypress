@@ -9,9 +9,11 @@ context('Login', () => {
     })
   
     it('Verify User Can Login With Valid Details', function () {
-      cy.get('[data-testid="login-emailInput"]').clear().type('annastorm12@yopmail.com')
-      cy.get('[data-testid="login-passwordInput"]').type('AnnaStorm12@')
+      cy.get('[data-testid="login-emailInput"]').clear().type('agromac12@yopmail.com')
+      cy.get('[data-testid="login-passwordInput"]').clear().type('Agromac1234567890@')
       cy.get('[data-testid="login-btn"]').click()
+      cy.url().should('eq', 'http://adminportal.development.clohea.com/') 
+      cy.get('div[role="alert"]').should('have.text', 'Medical Center Login Successful')
     })
     it('Verify User Cannot Login With Invalid Details', function () {
         cy.getElementByID(this.selectors.Login.emailTextfield).type(this.testDataTemi.Login.wrongEmail)
