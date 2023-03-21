@@ -12,6 +12,7 @@ jobs:
       # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v5 # use the explicit version number
-        # with:
+        with:
+          record: true
           # build: npm run test
           # start: npm start
