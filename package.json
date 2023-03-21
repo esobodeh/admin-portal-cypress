@@ -17,6 +17,7 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "^12.7.0",
-    "cypress-wait-until": "^1.7.2"
+    "cypress-wait-until": "^1.7.2",
+    "@rollup/plugin-babel": "^5.3.0"
   }
 }
