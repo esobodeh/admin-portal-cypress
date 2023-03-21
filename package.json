@@ -4,7 +4,14 @@
   "description": "Clohea Admin Portal Automation with Cypress",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run",
+    "build": "rollup -c",
+    "start": "http-server",
+    "run:test": "cypress open",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:record": "cypress run --record --key 86a7b451-9e50-470d-8695-b481712c7a08",
+    "run:local": ""
   },
   "author": "Samuel Obodeh",
   "license": "ISC",

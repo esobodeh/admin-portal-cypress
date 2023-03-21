@@ -1,0 +1,22 @@
+{
+    "Login" : 
+    {
+        "wrongEmail" : "Qatest.com",
+        "correctEmail" : "Qatest@gmail.com",
+        "wrongPassword" : "123",
+        "correctPassword" : "Password1@"
+    },
+    "AccountSetup" : 
+    {
+        "Step1":
+        {
+            "zipCode" : "",
+            "address" : ""
+        },
+        "Step2":
+        {
+            "abc" : "",
+            "xyz" : ""
+        }
+    }
+}
