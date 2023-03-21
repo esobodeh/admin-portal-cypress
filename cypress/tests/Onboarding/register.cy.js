@@ -31,8 +31,9 @@ context('Onboarding', () => {
       cy.getElementByID(this.selectors.Onboarding.confirmPassword).click()
         .type(this.CloheaDummyData.Onboarding.password)
 
-      // cy.get(':nth-child(1) > [data-v-7c5c21dc=""][data-v-59cbef9c=""] > span')
-      cy.get(':nth-child(1) > [data-v-7c5c21dc=""][data-v-7cedda64=""] > span').click()
+      // cy.get(':nth-child(1) > [data-v-7c5c21dc=""][data-v-59cbef9c=""] > span') 
+      // cy.get(':nth-child(1) > [data-v-7c5c21dc=""][data-v-7cedda64=""] > span').click()
+      cy.getElementByID(this.selectors.Onboarding.tAndCcheckbox).invoke('show').click()
 
       cy.getElementByID(this.selectors.Onboarding.signUpButton).click()
 
