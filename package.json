@@ -15,8 +15,7 @@
   "author": "Samuel Obodeh",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^12.7.0",
+    "cypress": "^12.9.0",
     "cypress-wait-until": "^1.7.2"
-
   }
 }

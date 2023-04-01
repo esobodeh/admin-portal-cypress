@@ -4,12 +4,13 @@ import 'cypress-wait-until';
 // -- This is a parent command --
     Cypress.Commands.add('login', (email, password) => { 
     cy.fixture('selectors').then((data) => {
-        cy.visit('/login');
-        cy.getElementByID(data.Login.usernameTextfield)
+        cy.getElementByID(data.Login.emailTextfield)
         .type(email)
-        cy.getElementByID(data.Login.password)
+        cy.getElementByID(data.Login.passwordTextfield)
         .type(password)
-        cy.getElementByID(data.Login.loginButton)
+        cy.getElementByID(data.Login.loginButton).click()
+        cy.url().should('eq', 'http://adminportal.development.clohea.com/') 
+        cy.get('div[role="alert"]').should('have.text', 'Medical Center Login Successful')
     })
  })
 Cypress.Commands.add('getElementByID', (selector) => { 
