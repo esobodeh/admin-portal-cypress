@@ -1,6 +1,7 @@
 /// <reference types="cypress" />
 
 context('Onboarding', () => {
+
     beforeEach(() => {
       const fixtureFiles = ['CloheaDummyData']
       cy.importSelectorsAndData(...fixtureFiles)
@@ -51,5 +52,6 @@ context('Onboarding', () => {
         })
       })
     })
+    
   })
   
