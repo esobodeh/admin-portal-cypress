@@ -18,7 +18,8 @@ context('accountSetup', () => {
       cy.get('[data-testid="createUserPhoneNumberInput"]').clear().type('08063137683')
       cy.get('[data-testid="createUserEmailInput"]').clear().type('automationtest@yopmail.com')
       cy.get('[data-testid="categorySelect"]').select(1).invoke("val").should("eq", "Medical")
-      
+      cy.get('[data-testid="select-plan-checkbox"]').invoke('show').eq(1).click()
+      cy.get('[data-testid="sendInviteBtn"]').click()
 
 
   
