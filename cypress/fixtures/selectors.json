@@ -39,7 +39,23 @@
     },
     "menu":
     {
+        "dashboard": "dashboardLinkBtn",
+        "managePlans": "managePlansLinkBtn",
+        "manageMembers": "manageMembersLinkBtn",
+        "billingInfo": "billingInfoLinkBtn",
+        "staffVerification": "verificationIconLinkBtn",
+        "settings": "settingsLinkBtn",
+        "logout": "logoutBtn"
         
+    },
+    "manageMembersFeatures":
+    {
+        "createGroup": "create-btn",
+        "editGroup": "edit-btn",
+        "deleteGroup": "delete-btn",
+        "addUser": "add-btn"
+
+
     }
        
 }
