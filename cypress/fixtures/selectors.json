@@ -26,6 +26,20 @@
         "emailTextfield" : "forgotPassword-emailInput",
         "resetPassworbButton" : "resetPassword-btn",
         "signInLinkedText" : "go-to-Sign In-link"
+    },
+    "addUserInfo":
+    {
+        "surnameTextfield": "createUserSurNameInput",
+        "firstNameTextfield": "createUserFirstNameInput",
+        "phoneNumberTextfield": "createUserPhoneNumberInput",
+        "emailTextfield": "createUserEmailInput",
+        "categoryDropdown": "categorySelect",
+        "selectPlanCheckbox": "select-plan-checkbox",
+        "sendInviteBtn": "sendInviteBtn"
+    },
+    "menu":
+    {
+        
     }
        
 }

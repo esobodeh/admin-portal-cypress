@@ -1,0 +1,16 @@
+{
+    "login":
+    {
+        "username": "global12@yopmail.com",
+        "password": "Global123@" 
+
+    },
+    "userInfo":
+    {
+        "surname": "Automation",
+        "firstName": "Test",
+        "phoneNumber": "08063137683",
+        "email": "automationtest@yopmail.com"
+
+    }
+}
