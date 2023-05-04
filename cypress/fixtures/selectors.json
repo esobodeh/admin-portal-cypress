@@ -27,7 +27,7 @@
         "resetPassworbButton" : "resetPassword-btn",
         "signInLinkedText" : "go-to-Sign In-link"
     },
-    "addUserInfo":
+    "userInfo":
     {
         "surnameTextfield": "createUserSurNameInput",
         "firstNameTextfield": "createUserFirstNameInput",
@@ -48,7 +48,7 @@
         "logout": "logoutBtn"
         
     },
-    "manageMembersFeatures":
+    "manageMembersMenu":
     {
         "createGroup": "create-btn",
         "editGroup": "edit-btn",

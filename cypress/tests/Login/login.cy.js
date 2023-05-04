@@ -7,12 +7,12 @@ context('Login', () => {
   })
 
   it('Verify User Can Login With Valid Details', function () {
-    // cy.getElementByID(this.selectors.Login.emailTextfield).clear().type('agromac12@yopmail.com')
-    // cy.getElementByID(this.selectors.Login.passwordTextfield).clear().type('Agromac1234567890@')
+    // cy.getElementByID(this.selectors.Login.emailTextfield).clear().type('adams22@yopmail.com')
+    // cy.getElementByID(this.selectors.Login.passwordTextfield).clear().type('Adams22@??')
     // cy.getElementByID(this.selectors.Login.loginButton).click()
     // cy.url().should('eq', 'http://adminportal.development.clohea.com/') 
     // cy.get('div[role="alert"]').should('have.text', 'Medical Center Login Successful')
-    cy.login('agromac12@yopmail.com', 'Agromac1234567890@')
+    cy.login('adams22@yopmail.com', 'Adams22@??')
   })
   it('Verify User Cannot Login With Invalid Details', function () {
       cy.getElementByID(this.selectors.Login.emailTextfield).type(this.testDataTemi.Login.wrongEmail)
