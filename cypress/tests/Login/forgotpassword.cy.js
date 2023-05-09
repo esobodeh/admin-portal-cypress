@@ -9,7 +9,7 @@ context('forgotpassword', () => {
     //     cy.get('[data-testid="go-to-forgot-password-link"]').click()
     //     cy.url().should('eq', 'http://adminportal.development.clohea.com/forgot-password') 
     //     cy.get('[data-testid="resetPassword-btn"]').should('be.visible')
-    //     cy.get('[data-testid="forgotPassword-emailInput"]').clear().type('dimson12@yopmail.com')
+    //     cy.get('[data-testid="forgotPassword-emailInput"]').clear().type('adams22@yopmail.com')
     //     cy.get('[data-testid="resetPassword-btn"]').click()
     //     cy.wait(2000)
     //     cy.get('[data-testid="confirmEmail-btn"]').should('be.visible')

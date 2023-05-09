@@ -19,7 +19,7 @@ context('accountSetup', () => {
       cy.getElementByID(this.selectors.userInfo.phoneNumberTextfield).clear().type(this.temisanTestdata.userInfo.phoneNumber)
       cy.getElementByID(this.selectors.userInfo.emailTextfield).clear().type(this.temisanTestdata.userInfo.email)
       cy.getElementByID(this.selectors.userInfo.categoryDropdown).select(1).invoke("val")
-      cy.getElementByID(this.selectors.userInfo.selectPlanCheckbox).invoke('show').eq(1).click()
+      cy.getElementByID(this.selectors.userInfo.selectPlanCheckbox).invoke('show').click()
       cy.getElementByID(this.selectors.userInfo.sendInviteBtn).click()
 
 
