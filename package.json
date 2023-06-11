@@ -7,7 +7,7 @@
     "test": "cypress run",
     "build": "rollup -c",
     "start": "http-server",
-    "run:test": "cypress open",
+    "open-cy": "cypress open",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "cypress:record": "cypress run --record --key 86a7b451-9e50-470d-8695-b481712c7a08"
