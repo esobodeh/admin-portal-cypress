@@ -7,10 +7,11 @@ context('accountSetup', () => {
     })
     it('Validate that a new user can be added successfully', function() {
 
-      cy.getElementByID(this.selectors.Login.emailTextfield).clear().type(this.temisanTestdata.login.username)
-      cy.getElementByID(this.selectors.Login.passwordTextfield).clear().type(this.temisanTestdata.login.password)
-      cy.getElementByID(this.selectors.Login.loginButton).click()
-      cy.url().should('eq', 'http://adminportal.development.clohea.com/')
+      // cy.getElementByID(this.selectors.Login.emailTextfield).clear().type(this.temisanTestdata.login.username)
+      // cy.getElementByID(this.selectors.Login.passwordTextfield).clear().type(this.temisanTestdata.login.password)
+      // cy.getElementByID(this.selectors.Login.loginButton).click()
+      // cy.url().should('eq', 'http://adminportal.development.clohea.com/')
+      cy.login(this.temisanTestdata.login.username,this.temisanTestdata.login.password)
       cy.getElementByID(this.selectors.menu.manageMembers).click()
       cy.url().should('eq', 'http://adminportal.development.clohea.com/manage-members')
       cy.getElementByID(this.selectors.manageMembersMenu.addUser).click()

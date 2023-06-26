@@ -18,6 +18,7 @@ context('forgotpassword', () => {
     // })
 it('Prevent password reset with invalid details', ()=>{
     cy.get('[data-testid="go-to-forgot-password-link"]').click()
+   // cy.getElementByID(this.selectors.Forgotpassword.forgotPasswordLinkText).click()
     cy.url().should('eq', 'http://adminportal.development.clohea.com/forgot-password')
     cy.get('[data-testid="resetPassword-btn"]').should('be.visible')
     cy.get('[data-testid="forgotPassword-emailInput"]').clear().type('redbutter')

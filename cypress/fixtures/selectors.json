@@ -50,12 +50,39 @@
     },
     "manageMembersMenu":
     {
-        "createGroup": "create-btn",
-        "editGroup": "edit-btn",
-        "deleteGroup": "delete-btn",
-        "addUser": "add-btn"
+      "manageMembers":"manageMembersLinkBtn",
+      "createGroup": "create-btn",
+      "groupnameField":"groupNameInput",
+      "patientReg":"select-module-checkbox",
+      "appointmentsBttn":"select-module-checkbox",
+      "treatmentsBttn":"select-module-checkbox",
+      "consultationBttn":"select-module-checkbox",
+      "saveBttn":"save-group-btn",
+      "closeBttn":"close-group-btn"
+
+    },
+    "editGroupMenu":
+    { 
+       "editGroup":"edit-btn",
+       "groupDropDwn":"groupSelect",
+       "openEditBttn":"openEditUserBtn",
+       "editBttn":"edit-btn",
+       "nursingBttn":"select-module-checkbox",
+       "saveBttn":"save-group-btn",
+       "cancleBttn":"cancel-modal-btn"
+},
+"deleteGroupMenu":
+ {
+      "deleteGroupBttn":"delete-btn",
+      "deleteBttn":"delete-group-btn",
+      "closeModalBttn":"close-modal-btn"
+      
 
 
-    }
-       
-}
+
+
+
+
+ }
+}      
+ 
