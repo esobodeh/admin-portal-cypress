@@ -16,6 +16,7 @@ context('Onboarding', () => {
       cy.getElementByID(this.selectors.Onboarding.rcNumber)
         .type(this.CloheaDummyData.Onboarding.rcNumber)
       cy.getElementByID(this.selectors.Onboarding.email).click()
+      cy.wait(7000)
       cy.getElementByID(this.selectors.Onboarding.mcCompanyName)
         .should('have.value', this.CloheaDummyData.Onboarding.mcCompanyName)
 
